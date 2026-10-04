@@ -1,0 +1,15 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# フロントエンド
+frontend/node_modules/
+frontend/dist/
+
+# ローカル専用ドキュメント（公開リポジトリにコミットしない）
+/local/
+/CLAUDE.local.md
+
+# 持ち主の手元の開発環境（公開リポジトリにコミットしない）
+/.devcontainer/
